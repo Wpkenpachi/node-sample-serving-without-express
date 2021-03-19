@@ -62,6 +62,11 @@
 </head>
 
 <body>
+
+  <ul id="lista">
+
+  </ul>
+
   <div class="corpo">
     <h1 class="title">Cardápio</h1>
     <form method="POST" id="form">
@@ -91,6 +96,8 @@
       </div>
 
       <button id="btn" type="submit">Submit</button>
+      <!-- To delete after test -->
+      <button id="btn_test" type="button" onclick="getList()"> Make Request </button>
     </form>
 
     <h3>Cardápio atual</h3>
@@ -110,6 +117,9 @@
     </table>
   </div>
 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"
+    integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ=="
+    crossorigin="anonymous"></script>
   <script src="/js/pagina-cardapio.js"></script>
 </body>
 
